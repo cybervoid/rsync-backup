@@ -1,4 +1,4 @@
 #!/bin/sh
 
 echo "Running rsync"
-rsync --progress -huvarz /mnt/ "$DEST"
+echo "rsync --progress -huvarz /mnt/ $DEST"
